@@ -1,0 +1,56 @@
+{
+  "replacerRecipesModule": {
+    "BetterStairs": true,
+    "BetterTrapdoor": true,
+    "BetterBark": true,
+    "BetterBricks": true
+  },
+  "extraRecipesModule": {
+    "BetterColoring_ConcretePowder": true,
+    "BetterColoring_Concrete": true,
+    "BetterColoring_Terracotta": true,
+    "BetterColoring_GlazedTerracotta": true,
+    "BetterColoring_StainedGlass": true,
+    "BetterColoring_StainedGlassPane": true,
+    "SandConversion": true,
+    "EasyCoral": true,
+    "AlternateDispenser": true,
+    "GravelFromFlint": true,
+    "EasyIce": true,
+    "LeatherFromRottenFlesh": true,
+    "NameTag": true,
+    "NetherWartFromBlock": true,
+    "NotchApple": true,
+    "StringFromWool": true
+  },
+  "extraLootTablesModule": {
+    "BlazeDropsQuartz": true,
+    "DrownedDropsClay": true,
+    "GuardianDropsLapis": true,
+    "HuskDropsSand": true,
+    "ShulkerDropsExtraShell": true,
+    "TropicalFishDropsCoral": true,
+    "WitherSkeletonDropsSoulSand": true,
+    "ZombieDropsGravel": true,
+    "EnderDragonDropsDiamonds": true,
+    "EnderDragonDropsEgg": true
+  },
+  "featuresModule": {
+    "CreeperDefuser": true,
+    "SilkSpawner": true,
+    "ItemNameColoring": true,
+    "ExtraBeaconBaseSize": true,
+    "ChainTopModel": true,
+    "EnderDragonAlwaysMaxXP": true,
+    "PotionsFix": true,
+    "PreventBatSpawn": true,
+    "WaterToIce": true
+  },
+  "blocksModule": {
+    "WallLanterns": true
+  },
+  "itemsModule": {
+    "FrienshipOrb": true,
+    "SpawnerUpgrade": true
+  }
+}

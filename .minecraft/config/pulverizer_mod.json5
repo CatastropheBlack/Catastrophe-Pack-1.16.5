@@ -1,0 +1,14 @@
+{ 
+	// The number of items a Diamond will pulverize before the Pulverizer consumes another.
+	"pulverizerDiamondDurability": 512,
+	// If 'true', recipes which provide bonus output will be enabled (E.g. bone -> bone meal, blaze rod -> blaze powder)
+	"enableBonusRecipes": true,
+	// If 'true', recipes which erode blocks will be enabled (E.g. stone -> gravel, gravel -> sand)
+	"enableErosionRecipes": true,
+	// If 'true', recipes which pulverize blocks into their respective dye will be enabled (E.g. blue wool -> blue dye)
+	"enableDyeRecipes": true,
+	// If 'true', recipes which enable you to recycle gold/iron tools/armors into an ingot will be enabled
+	"enableRecycleRecipes": true,
+	// If 'true', recipes which pulverize mined Ores into their materials will be enabled (E.g. Iron Ore -> Iron Ingots)
+	"enableOreRecipes": true
+}
