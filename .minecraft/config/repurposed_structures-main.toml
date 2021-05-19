@@ -11,8 +11,8 @@ mushroomDungeonAttemptsPerChunk = 8
 snowDungeonAttemptsPerChunk = 8
 icyDungeonAttemptsPerChunk = 8
 swampDungeonAttemptsPerChunk = 8
-endDungeonAttemptsPerChunk = 12
-netherDungeonAttemptsPerChunk = 12
+endDungeonAttemptsPerChunk = 0
+netherDungeonAttemptsPerChunk = 0
 oceanDungeonAttemptsPerChunk = 5
 
 [RSDungeonsConfig.minHeight]
@@ -51,10 +51,10 @@ blacklistedBoulderBiomes = ""
 boulderTiny = true
 boulderGiant = true
 diamondChanceInGiantBoulders = 7000
-giantBouldersPerChunk = 0.5
+giantBouldersPerChunk = 0.25
 
 [RSMainConfig.jungleFortress]
-jungleFortressMaxChunkDistance = 50
+jungleFortressMaxChunkDistance = 98
 addJungleFortressToModdedBiomes = true
 blacklistedFortressBiomes = ""
 silverfishSpawnrate = 0.5
@@ -62,9 +62,9 @@ lootChests = true
 
 [RSMainConfig.igloos]
 blacklistedIglooBiomes = ""
-grassyIglooMaxChunkDistance = 20
+grassyIglooMaxChunkDistance = 41
 addGrassyIglooToModdedBiomes = true
-stoneIglooMaxChunkDistance = 20
+stoneIglooMaxChunkDistance = 41
 addStoneIglooToModdedBiomes = true
 
 [RSMainConfig.ruinedPortals]
@@ -79,32 +79,32 @@ ruinsNetherMaxChunkDistance = 35
 
 [RSMainConfig.cities]
 blacklistedCitiesBiomes = ""
-addCityNetherToModdedBiomes = true
-cityNetherMaxChunkDistance = 120
+addCityNetherToModdedBiomes = false
+cityNetherMaxChunkDistance = 1001
 [RSTemplesConfig.temples]
 blacklistedTempleBiomes = ""
 netherWastelandTempleMaxChunkDistance = 27
 addNetherWastelandTempleToModdedBiomes = false
 netherBasaltTempleMaxChunkDistance = 27
 addNetherBasaltTempleToModdedBiomes = false
-netherCrimsonTempleMaxChunkDistance = 27
+netherCrimsonTempleMaxChunkDistance = 1001
 addNetherCrimsonTempleToModdedBiomes = false
-netherWarpedTempleMaxChunkDistance = 27
+netherWarpedTempleMaxChunkDistance = 1001
 addNetherWarpedTempleToModdedBiomes = false
-netherSoulTempleMaxChunkDistance = 27
+netherSoulTempleMaxChunkDistance = 1001
 addNetherSoulTempleToModdedBiomes = false
 [RSTemplesConfig.pyramids]
 blacklistedPyramidBiomes = ""
-netherPyramidMaxChunkDistance = 37
-addNetherPyramidToModdedBiomes = true
+netherPyramidMaxChunkDistance = 1001
+addNetherPyramidToModdedBiomes = false
 badlandsPyramidMaxChunkDistance = 37
 addBadlandsPyramidToModdedBiomes = true
-pyramidSnowyMaxChunkDistance = 37
-addPyramidSnowyToModdedBiomes = true
-pyramidEndMaxChunkDistance = 68
-addPyramidEndToModdedBiomes = true
-pyramidIcyMaxChunkDistance = 37
-addPyramidIcyToModdedBiomes = true
+pyramidSnowyMaxChunkDistance = 1001
+addPyramidSnowyToModdedBiomes = false
+pyramidEndMaxChunkDistance = 1001
+addPyramidEndToModdedBiomes = false
+pyramidIcyMaxChunkDistance = 1001
+addPyramidIcyToModdedBiomes = false
 [RSMineshaftsConfig]
 lootChestsMS = true
 addMineshaftsToModdedBiomes = true
@@ -114,16 +114,16 @@ blacklistedMineshaftBiomes = "betterend:sulphur_springs"
 birchMineshaftSpawnrate = 40
 jungleMineshaftSpawnrate = 40
 desertMineshaftSpawnrate = 40
-stoneMineshaftSpawnrate = 40
+stoneMineshaftSpawnrate = 0
 savannaMineshaftSpawnrate = 40
-icyMineshaftSpawnrate = 40
-oceanMineshaftSpawnrate = 40
+icyMineshaftSpawnrate = 0
+oceanMineshaftSpawnrate = 0
 taigaMineshaftSpawnrate = 40
 swampAndDarkForestMineshaftSpawnrate = 40
-endMineshaftSpawnrate = 60
-netherMineshaftSpawnrate = 40
-crimsonMineshaftSpawnrate = 40
-warpedMineshaftSpawnrate = 40
+endMineshaftSpawnrate = 0
+netherMineshaftSpawnrate = 0
+crimsonMineshaftSpawnrate = 0
+warpedMineshaftSpawnrate = 0
 
 [RSMineshaftsConfig.minHeight]
 birchMineshaftMinHeight = 8
@@ -159,14 +159,14 @@ warpedMineshaftMaxHeight = 13
 barrensIslandsEndMineshafts = false
 [RSStrongholdsConfig]
 strongholdSizeSH = 100.0
-allowExtraSpawnersSH = true
+allowExtraSpawnersSH = false
 lootChestsSH = true
-turnOffVanillaStrongholds = true
+turnOffVanillaStrongholds = false
 blacklistedStrongholdBiomes = ""
 
 [RSStrongholdsConfig.stonebrick]
-allowStonebrickStrongholdToVanillaBiomes = true
-addStonebrickStrongholdToModdedBiomes = true
+allowStonebrickStrongholdToVanillaBiomes = false
+addStonebrickStrongholdToModdedBiomes = false
 silverfishSpawnrateSH = 0.8
 stonebrickStrongholdMinHeight = 0
 stonebrickStrongholdMaxHeight = 45
@@ -185,10 +185,10 @@ blacklistedOutpostBiomes = ""
 [RSOutpostsConfig.outposts]
 netherBrickOutpostMaxChunkDistance = 34
 addNetherBrickOutpostToModdedBiomes = true
-warpedOutpostMaxChunkDistance = 34
-addWarpedOutpostToModdedBiomes = true
-crimsonOutpostMaxChunkDistance = 34
-addCrimsonOutpostToModdedBiomes = true
+warpedOutpostMaxChunkDistance = 1001
+addWarpedOutpostToModdedBiomes = false
+crimsonOutpostMaxChunkDistance = 1001
+addCrimsonOutpostToModdedBiomes = false
 addOutpostBirchToModdedBiomes = true
 outpostBirchMaxChunkDistance = 45
 addOutpostJungleToModdedBiomes = true
@@ -199,18 +199,18 @@ addOutpostDesertToModdedBiomes = true
 outpostDesertMaxChunkDistance = 45
 addOutpostBadlandsToModdedBiomes = true
 outpostBadlandsMaxChunkDistance = 45
-addOutpostSnowyToModdedBiomes = true
-outpostSnowyMaxChunkDistance = 45
-addOutpostIcyToModdedBiomes = true
-outpostIcyMaxChunkDistance = 41
+addOutpostSnowyToModdedBiomes = false
+outpostSnowyMaxChunkDistance = 1001
+addOutpostIcyToModdedBiomes = false
+outpostIcyMaxChunkDistance = 1001
 addOutpostTaigaToModdedBiomes = true
 outpostTaigaMaxChunkDistance = 45
 addOutpostOakToModdedBiomes = true
 outpostOakMaxChunkDistance = 45
-outpostEndMaxChunkDistance = 61
-addOutpostEndToModdedBiomes = true
+outpostEndMaxChunkDistance = 1001
+addOutpostEndToModdedBiomes = false
 [RSVillagesConfig]
-addVillagesToModdedBiomes = true
+addVillagesToModdedBiomes = false
 blacklistedVillageBiomes = ""
 badlandsVillageMaxChunkDistance = 30
 birchVillageMaxChunkDistance = 38
@@ -219,8 +219,8 @@ jungleVillageMaxChunkDistance = 38
 swampVillageMaxChunkDistance = 38
 mountainsVillageMaxChunkDistance = 38
 giantTaigaVillageMaxChunkDistance = 38
-crimsonVillageMaxChunkDistance = 30
-warpedVillageMaxChunkDistance = 30
+crimsonVillageMaxChunkDistance = 1001
+warpedVillageMaxChunkDistance = 1001
 villageOakMaxChunkDistance = 38
 [RSWellsConfig]
 addWellsToModdedBiomes = true
@@ -236,41 +236,41 @@ forestWellRarityPerChunk = 350
 [RSShipwrecksConfig.blacklist]
 blacklistedShipwreckBiomes = ""
 addEndShipwreckToModdedBiomes = true
-addNetherBricksShipwreckToModdedBiomes = true
-addCrimsonShipwreckToModdedBiomes = true
-addWarpedShipwreckToModdedBiomes = true
+addNetherBricksShipwreckToModdedBiomes = false
+addCrimsonShipwreckToModdedBiomes = false
+addWarpedShipwreckToModdedBiomes = false
 [RSShipwrecksConfig.maxChunkDistance]
 endShipwreckMaxChunkDistance = 24
-netherBricksShipwreckMaxChunkDistance = 51
-crimsonShipwreckMaxChunkDistance = 41
-warpedShipwreckMaxChunkDistance = 41
+netherBricksShipwreckMaxChunkDistance = 1001
+crimsonShipwreckMaxChunkDistance = 1001
+warpedShipwreckMaxChunkDistance = 1001
 [RSMansionsConfig.blacklist]
 blacklistedMansionBiomes = ""
-addMansionBirchToModdedBiomes = true
-addMansionJungleToModdedBiomes = true
-addMansionOakToModdedBiomes = true
-addMansionSavannaToModdedBiomes = true
-addMansionTaigaToModdedBiomes = true
-addMansionDesertToModdedBiomes = true
-addMansionSnowyToModdedBiomes = true
+addMansionBirchToModdedBiomes = false
+addMansionJungleToModdedBiomes = false
+addMansionOakToModdedBiomes = false
+addMansionSavannaToModdedBiomes = false
+addMansionTaigaToModdedBiomes = false
+addMansionDesertToModdedBiomes = false
+addMansionSnowyToModdedBiomes = false
 [RSMansionsConfig.maxChunkDistance]
-mansionBirchMaxChunkDistance = 140
-mansionJungleMaxChunkDistance = 140
-mansionOakMaxChunkDistance = 140
-mansionSavannaMaxChunkDistance = 140
-mansionTaigaMaxChunkDistance = 140
-mansionDesertMaxChunkDistance = 140
-mansionSnowyMaxChunkDistance = 140
+mansionBirchMaxChunkDistance = 1001
+mansionJungleMaxChunkDistance = 1001
+mansionOakMaxChunkDistance = 1001
+mansionSavannaMaxChunkDistance = 1001
+mansionTaigaMaxChunkDistance = 1001
+mansionDesertMaxChunkDistance = 1001
+mansionSnowyMaxChunkDistance = 1001
 [RSWitchHutsConfig.blacklist]
 blacklistedWitchHutsBiomes = ""
-addWitchHutsOakToModdedBiomes = true
-addWitchHutsTaigaToModdedBiomes = true
-addWitchHutsBirchToModdedBiomes = true
-addWitchHutsDarkForestToModdedBiomes = true
-addWitchHutsGiantTreeTaigaToModdedBiomes = true
+addWitchHutsOakToModdedBiomes = false
+addWitchHutsTaigaToModdedBiomes = false
+addWitchHutsBirchToModdedBiomes = false
+addWitchHutsDarkForestToModdedBiomes = false
+addWitchHutsGiantTreeTaigaToModdedBiomes = false
 [RSWitchHutsConfig.maxChunkDistance]
-witchHutsOakMaxChunkDistance = 48
-witchHutsTaigaMaxChunkDistance = 48
-witchHutsBirchMaxChunkDistance = 48
-witchHutsDarkForestMaxChunkDistance = 48
-witchHutsGiantTreeTaigaMaxChunkDistance = 48
+witchHutsOakMaxChunkDistance = 1001
+witchHutsTaigaMaxChunkDistance = 1001
+witchHutsBirchMaxChunkDistance = 1001
+witchHutsDarkForestMaxChunkDistance = 101
+witchHutsGiantTreeTaigaMaxChunkDistance = 1001

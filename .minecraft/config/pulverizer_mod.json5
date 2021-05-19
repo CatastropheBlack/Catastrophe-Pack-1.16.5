@@ -1,6 +1,6 @@
 { 
 	// The number of items a Diamond will pulverize before the Pulverizer consumes another.
-	"pulverizerDiamondDurability": 512,
+	"pulverizerDiamondDurability": 256,
 	// If 'true', recipes which provide bonus output will be enabled (E.g. bone -> bone meal, blaze rod -> blaze powder)
 	"enableBonusRecipes": true,
 	// If 'true', recipes which erode blocks will be enabled (E.g. stone -> gravel, gravel -> sand)

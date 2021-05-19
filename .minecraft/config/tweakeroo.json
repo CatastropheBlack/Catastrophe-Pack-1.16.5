@@ -1,17 +1,17 @@
 {
   "Fixes": {
-    "clientChunkEntityDupeFix": false,
+    "clientChunkEntityDupeFix": true,
     "elytraFix": false,
     "macHorizontalScroll": false,
     "profilerChartFix": false,
     "ravagerClientBlockBreakFix": false,
-    "tileEntityUnloadOptimization": false
+    "tileEntityUnloadOptimization": true
   },
   "Generic": {
     "clientPlacementRotation": true,
     "freeCameraPlayerInputs": false,
     "freeCameraPlayerMovement": false,
-    "lavaVisibilityOptifineCompat": true,
+    "lavaVisibilityOptifineCompat": false,
     "handRestockPre": true,
     "hangableEntityBypassInverse": false,
     "permanentSneakAllowInGUIs": false,
@@ -538,7 +538,7 @@
       }
     },
     "zoomActivate": {
-      "keys": "",
+      "keys": "C",
       "settings": {
         "activate_on": "BOTH",
         "context": "INGAME",
@@ -650,7 +650,7 @@
     "disableTileEntityTicking": false,
     "disableVillagerTradeLocking": false,
     "disableWallUnsprint": false,
-    "disableWorldViewBob": false
+    "disableWorldViewBob": true
   },
   "DisableHotkeys": {
     "disableArmorStandRendering": {
@@ -1091,7 +1091,7 @@
     "tweakTabCompleteCoordinate": false,
     "tweakToolSwitch": false,
     "tweakYMirror": false,
-    "tweakZoom": false
+    "tweakZoom": true
   },
   "TweakHotkeys": {
     "carpetAccuratePlacementProtocol": {
@@ -1443,7 +1443,7 @@
       }
     },
     "tweakFreeCamera": {
-      "keys": "",
+      "keys": "F6",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",

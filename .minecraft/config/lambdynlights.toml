@@ -13,4 +13,4 @@ mode = "fancy"
     # Creeper lighting mode. May be off, simple or fancy.
     creeper = "simple"
     # TNT lighting mode. May be off, simple or fancy.
-    tnt = "off"
+    tnt = "simple"

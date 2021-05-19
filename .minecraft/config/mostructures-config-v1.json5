@@ -2,7 +2,7 @@
 	// Mo' Structures feature toggles.
 	"features": { 
 		// Airplanes & Air Balloons
-		"air_features": true,
+		"air_features": false,
 		// Fallen Trees
 		"fallen_trees": true,
 		// Desert Features
@@ -25,13 +25,13 @@
 		// Airplanes & Air Balloons
 		"air_feature_chance": 4600,
 		// Fallen Trees
-		"fallen_trees_chance": 17,
+		"fallen_trees_chance": 25,
 		// Desert Features
 		"desert_features_chance": 555,
 		// Ruins
 		"ruins_chance": 3500,
 		// Lamppost
-		"lamppost_chance": 100,
+		"lamppost_chance": 300,
 		// Boulder
 		"boulder_chance": 4000,
 		// Volcanic Vent
@@ -50,7 +50,7 @@
 		// Big Pyramid
 		"big_pyramid": true,
 		// The Castle In The Sky
-		"the_castle_in_the_sky": true,
+		"the_castle_in_the_sky": false,
 		// Villager Tower
 		"villager_tower": true,
 		// Abandoned Churches

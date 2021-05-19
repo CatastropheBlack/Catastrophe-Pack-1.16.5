@@ -4,7 +4,7 @@ module = "NO_NAME"
 uiOffset = 0
 margin = 10
 squash = false
-effectsPerColumn = 4
+effectsPerColumn = 8
 showLevel = true
 levelInArabic = false
 

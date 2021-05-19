@@ -4,5 +4,5 @@
   "resolution": "Normal",
   "disableCamera": true,
   "archiveScreenshots": false,
-  "updateWorldIcon": false
+  "updateWorldIcon": true
 }

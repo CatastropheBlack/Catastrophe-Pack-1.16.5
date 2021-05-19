@@ -1,6 +1,6 @@
 {
 	// When set to true, a tree will only be chopped down if the player is sneaking.
-	"reverseSneaking": false,
+	"reverseSneaking": true,
 	// When set to true, the mod will cut down trees in creative too.
 	"breakInCreative": false,
 	"trees": {
@@ -32,7 +32,7 @@
 		   ABOVE_CUT will break only blocks that are connected from above the cut point. 
 		   ABOVE_Y will break only blocks that are above the y value of the cut point.
 		*/
-		"detectionMode": "WHOLE_TREE",
+		"detectionMode": "ABOVE_CUT",
 		/* The maximum size of a tree. If there's more logs than this value the tree won't be cut. 
 		   INFO: Only in INSTANTANEOUS mode.
 		*/
@@ -62,7 +62,7 @@
 		   i.e. Setting a value of 2 will result on an area of 3x3 centered on the log broken. 
 		   If this value is set to a negative number then no area restriction will be applied.
 		*/
-		"searchAreaRadius": -1,
+		"searchAreaRadius": 2,
 		/* List the blocks that can be against the tree. If something else is adjacent then the tree won't be cut. 
 		   INFO: Use adjacentStopMode to define how we stop the search for the tree.
 		*/

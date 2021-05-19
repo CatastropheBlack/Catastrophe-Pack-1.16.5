@@ -1,7 +1,7 @@
 #Tools with the Acquisition enchantment automatically pick up drops.
 "Acquisition Enabled" = true
 #Aerial Affinity is a boots enchantment that increases mining rate when not on the ground.
-"AerialAffinity Enabled" = true
+"AerialAffinity Enabled" = false
 #Removes minimum and maximum XP costs on the anvil. Anvils are also less likely to break.
 "AnvilImprovements Enabled" = true
 #Lightweight armor is invisible and does not increase mob awareness when drinking Potion of Invisibility.
@@ -27,9 +27,9 @@
 #Bookshelves that can hold up to 9 stacks of books and maps.
 "Bookcases Enabled" = true
 #Campfires no longer damage mobs.
-"CampfiresNoDamage Enabled" = true
+"CampfiresNoDamage Enabled" = false
 #Candles are made from beeswax and have a lower ambient light than torches.
-"Candles Enabled" = true
+"Candles Enabled" = false
 #Cave spiders have a chance to drop cobwebs.
 "CaveSpidersDropCobwebs Enabled" = true
 #Chickens randomly drop feathers.
@@ -37,7 +37,7 @@
 #Coral can be combined with sea lanterns to make colored variants.
 "CoralSeaLanterns Enabled" = true
 #Coral Squids spawn near coral in warm oceans.
-"CoralSquids Enabled" = true
+"CoralSquids Enabled" = false
 #A smaller storage solution with the benefit of being transportable.
 "Crates Enabled" = true
 #Combine a tool or armor with a netherite nugget on an anvil to reduce its repair cost.
@@ -57,7 +57,7 @@
 #Glowballs can be thrown to produce a light source where they impact.
 "Glowballs Enabled" = true
 #Gold variant of vanilla iron bars.
-"GoldBars Enabled" = true
+"GoldBars Enabled" = false
 #Gold version of the vanilla chain.
 "GoldChains Enabled" = true
 #Gold version of the vanilla lanterns.
@@ -67,7 +67,7 @@
 #Husks spawn anywhere within their biome and have a chance to drop sand.
 "HuskImprovements Enabled" = true
 #Button to automatically tidy inventories.
-"InventoryTidying Enabled" = true
+"InventoryTidying Enabled" = false
 #A functional block that speeds up cooking of clay, bricks and terracotta.
 "Kilns Enabled" = true
 #Lumberjacks are villagers that trade wooden items. Their job site is the woodcutter.
@@ -210,7 +210,7 @@
 
 [Core]
 	#If true, routes additional debug messages into the standard game log.
-	"Debug mode" = false
+	"Debug mode" = true
 	#If inventory crafting or inventory ender chest modules are enabled, pressing escape or inventory key returns you to the inventory rather than closing the window.
 	"Inventory button return" = false
 	#If true, replaces vanilla glint color rendering with Charm's, allowing for multiple enchantment glint colors.
@@ -244,7 +244,7 @@
 	#If true, adds a recipe for Gilded Blackstone using gold nuggets and blackstone.
 	"Gilded Blackstone" = true
 	#If true, adds a recipe for the Trident using prismarine shards and crystals.
-	Trident = true
+	Trident = false
 	#If true, adds a recipe for Cyan Dye using warped roots.
 	"Cyan Dye" = true
 	#If true, adds a recipe for Green Dye using yellow and blue dyes.
@@ -258,7 +258,7 @@
 
 [ExtractEnchantments]
 	#Initial XP cost before adding XP equivalent to the enchantment level(s) of the item.
-	"Initial XP cost" = 2
+	"Initial XP cost" = 5
 
 [FeatherFallingCrops]
 	#Turn this off to prevent trampling even when the player does not wear feather falling boots.
@@ -336,7 +336,7 @@
 	#Maximum stew stack size.
 	"Stack size" = 16
 	#Also apply to suspicious stew.
-	"Enable suspicious stew" = false
+	"Enable suspicious stew" = true
 
 [StrayImprovements]
 	#If true, strays can spawn anywhere within their biome rather than just the surface.
@@ -344,7 +344,7 @@
 	#If true, strays drop blue ice when killed.
 	"Drop blue ice when killed" = true
 	#Maximum blue ice dropped when stray is killed.
-	"Maximum drops" = 2
+	"Maximum drops" = 1
 
 [Tinted]
 	#Number of levels required to change a tinted item using dye on an anvil.

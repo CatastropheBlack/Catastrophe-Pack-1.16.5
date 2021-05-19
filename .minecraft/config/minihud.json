@@ -71,8 +71,8 @@
     "textColor": "#FFE0E0E0"
   },
   "Generic": {
-    "beeTooltips": false,
-    "honeyTooltips": false,
+    "beeTooltips": true,
+    "honeyTooltips": true,
     "enabled": true,
     "debugMessages": false,
     "debugRendererPathFindingEnablePointWidth": true,
@@ -80,9 +80,9 @@
     "enableVanillaDebugRendererFix": true,
     "lightLevelColoredNumbers": true,
     "lightLevelNumberRotation": true,
-    "mapPreview": false,
+    "mapPreview": true,
     "requireSneak": false,
-    "shulkerBoxPreview": false,
+    "shulkerBoxPreview": true,
     "shulkerDisplayBgColor": true,
     "shulkerDisplayRequireShift": true,
     "sortLinesByLength": false,
@@ -177,12 +177,12 @@
     "timeTotalDivisor": 24000
   },
   "InfoTypeToggles": {
-    "infoBeeCount": false,
+    "infoBeeCount": true,
     "infoBiome": false,
     "infoBiomeRegistryName": false,
     "infoBlockBreakSpeed": false,
     "infoBlockInChunk": false,
-    "infoBlockPosition": false,
+    "infoBlockPosition": true,
     "infoBlockProperties": false,
     "infoChunkPosition": false,
     "infoChunkSections": false,
@@ -195,9 +195,9 @@
     "infoEntities": false,
     "infoEntitiesClientWorld": false,
     "infoEntityRegistryName": false,
-    "infoFacing": true,
-    "infoFPS": false,
-    "infoHoneyLevel": false,
+    "infoFacing": false,
+    "infoFPS": true,
+    "infoHoneyLevel": true,
     "infoLightLevel": false,
     "infoLookingAtBlock": false,
     "infoLookingAtBlockInChunk": false,
@@ -214,8 +214,8 @@
     "infoSpeed": false,
     "infoSpeedAxis": false,
     "infoTileEntities": false,
-    "infoTimeDayModulo": false,
-    "infoTimeIRL": true,
+    "infoTimeDayModulo": true,
+    "infoTimeIRL": false,
     "infoTimeTotalModulo": false,
     "infoTimeWorld": false,
     "infoWorldTimeFormatted": false
@@ -844,7 +844,7 @@
       }
     },
     "overlayLightLevel": {
-      "keys": "",
+      "keys": "F7",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",

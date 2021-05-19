@@ -11,7 +11,7 @@
 	# Removes the glowing effect from potions.
 	# This makes the potion colors more visible.
 	# Default: true
-	remove_glowing_effect_from_potions = true
+	remove_glowing_effect_from_potions = false
 	# Removes the glowing effect from enchanted books.
 	# Default: false
 	remove_glowing_effect_from_enchanted_books = false
@@ -23,7 +23,7 @@
 	# Min: 1.4E-45
 	# Max: 260.0
 	# Default: 1.0
-	framerate_limit_slider_step_size = 1.0
+	framerate_limit_slider_step_size = 5.0
 	# Causes Minecraft to show the main menu screen after disconnecting rather than the Realms or multiplayer screen.
 	# Default: false
 	return_to_main_menu_after_disconnect = false
