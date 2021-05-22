@@ -153,7 +153,7 @@
     },
     "blockGridOverlayMode": "all",
     "lightLevelMarkers": "square",
-    "lightLevelNumbers": "block",
+    "lightLevelNumbers": "none",
     "hudAlignment": "top_left",
     "blockGridOverlayRadius": 32,
     "coordinateFormat": "x: %.1f y: %.1f z: %.1f",

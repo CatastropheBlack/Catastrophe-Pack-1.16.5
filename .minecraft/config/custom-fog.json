@@ -2,7 +2,7 @@
   "defaultConfig": {
     "enabled": true,
     "type": "LINEAR",
-    "linearFogStartMult": 0.0,
+    "linearFogStartMult": 0.20422535,
     "linearFogEndMult": 0.90140843,
     "expFogMult": 3.0,
     "exp2FogMult": 1.75

@@ -1,7 +1,7 @@
 {
   "time": 80,
   "fade": 20,
-  "resolution": "Normal",
+  "resolution": "Native",
   "disableCamera": true,
   "archiveScreenshots": false,
   "updateWorldIcon": true

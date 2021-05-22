@@ -75,7 +75,7 @@
 			// Declares whether scrolled entry panel should snap to rows.
 			"snapToRows": false,
 			// Declares how the scrollbar in villager screen should act.
-			"villagerScreenPermanentScrollBar": false,
+			"villagerScreenPermanentScrollBar": true,
 			"toastDisplayedOnCopyIdentifier": true,
 			// Declares whether REI should use compact tabs for categories.
 			"useCompactTabs": true
