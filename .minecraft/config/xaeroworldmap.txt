@@ -1,4 +1,4 @@
-ignoreUpdate:99
+ignoreUpdate:100
 updateNotification:true
 differentiateByServerAddress:true
 debug:false

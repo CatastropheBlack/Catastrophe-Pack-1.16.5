@@ -113,7 +113,7 @@ blacklistedMineshaftBiomes = "betterend:sulphur_springs"
 [RSMineshaftsConfig.spawnrate]
 birchMineshaftSpawnrate = 40
 jungleMineshaftSpawnrate = 40
-desertMineshaftSpawnrate = 40
+desertMineshaftSpawnrate = 0
 stoneMineshaftSpawnrate = 0
 savannaMineshaftSpawnrate = 40
 icyMineshaftSpawnrate = 0
