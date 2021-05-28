@@ -622,7 +622,7 @@
   },
   "DisableToggles": {
     "disableArmorStandRendering": false,
-    "disableAxeStripping": false,
+    "disableAxeStripping": true,
     "disableBlockBreakingParticles": false,
     "disableDoubleTapSprint": false,
     "disableBossFog": false,
