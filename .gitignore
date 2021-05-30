@@ -1,10 +1,8 @@
 twitch-export-builder_linux_amd64
-*.zip
+exportcommand.txt
 .minecraft/.build.json
 .minecraft/mods/*.disabled
 .minecraft/config/minihud
 .minecraft/config/cherishedworlds
-.minecraft/config/sodium-options.json
 .minecraft/config/fabric
-.minecraft/config/sodium-mixins.properties
-.minecraft/config/sodium-options.json
+.minecraft/config/sodium*
