@@ -1,6 +1,8 @@
 {
   "dropItems": true,
   "growthTime": 10,
-  "perItemGrowthTimes": {},
+  "perItemGrowthTimes": {
+    "minecraft:birch_sapling": -1
+  },
   "growthModifierRegexPatterns": {}
 }

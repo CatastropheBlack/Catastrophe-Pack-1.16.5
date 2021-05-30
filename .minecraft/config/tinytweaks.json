@@ -4,7 +4,7 @@
   "easyHarvestDropAsItems": true,
   "autoPlanting": {
     "enabled": true,
-    "delay": 200
+    "delay": 2000
   },
   "rejuvenation": {
     "enabled": true,

@@ -21,4 +21,6 @@ worldmapWaypointsScale:1.0
 openMapAnimation:false
 reloadVersion:0
 reloadEverything:false
+zoomButtons:true
+waypointBackgrounds:true
 globalVersion:1
