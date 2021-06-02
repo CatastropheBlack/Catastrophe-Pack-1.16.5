@@ -1,3 +1,7 @@
+0.1.5-hotfix  
+Removed Fabric API 0.34.2+1.16 (Duplicate mod causing game crash)
+Removed extraneous configs
+
 0.1.5  
 Added Blur 2.1.0-1.16.5  
 Added Loud Leads 1.0.1  
