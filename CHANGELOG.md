@@ -1,3 +1,11 @@
+0.1.5  
+Added Blur 2.1.0-1.16.5  
+Added Loud Leads 1.0.1  
+Added Dark Loading Screen 1.6.3  
+Removed Splash  
+Tweaked Automatic Path times  
+Disabled Charm "WanderingTraderImprovements" (doesn't seem to be working)  
+
 0.1.4  
 Updated Fabric API to 0.34.6+1.16  
 Added Better Eating Mod 0.3.0  

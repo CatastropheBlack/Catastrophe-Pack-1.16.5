@@ -2,7 +2,16 @@
   "dropItems": true,
   "growthTime": 10,
   "perItemGrowthTimes": {
-    "minecraft:birch_sapling": -1
+    "minecraft:birch_sapling": -1,
+    "minecraft:red_mushroom": -1,
+    "minecraft:azure_bluet": -1,
+    "terrestria:willow_sapling": -1,
+    "minecraft:lily_of_the_valley": -1,
+    "minecraft:red_tulip": -1,
+    "minecraft:oak_sapling": -1,
+    "minecraft:pink_tulip": -1,
+    "minecraft:cactus": -1,
+    "terrestria:rubber_sapling": -1
   },
   "growthModifierRegexPatterns": {}
 }

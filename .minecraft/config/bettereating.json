@@ -1,5 +1,5 @@
 {
-  "foodTimerLength": 5,
+  "foodTimerLength": 10,
   "restrictPlaceBlocks": true,
   "restrictUseBlocks": true,
   "restrictUseItems": true
