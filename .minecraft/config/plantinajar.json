@@ -4,6 +4,7 @@
   "perItemGrowthTimes": {
     "minecraft:birch_sapling": -1,
     "minecraft:red_mushroom": -1,
+    "minecraft:blue_orchid": -1,
     "minecraft:azure_bluet": -1,
     "terrestria:willow_sapling": -1,
     "minecraft:lily_of_the_valley": -1,

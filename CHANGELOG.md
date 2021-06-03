@@ -1,3 +1,11 @@
+0.1.6  
+Updated Blame to 1.16.5-3.2.0  
+Updated Cardinal Components API to 2.8.3  
+Updated Plant in a Jar to 2.1.2  
+Updated Roughly Enough Items to 5.12.235  
+Updated VanillaEnhanced to 1.5.1  
+Updated WTHIT to 2.10.2  
+
 0.1.5-hotfix  
 Removed Fabric API 0.34.2+1.16 (Duplicate mod causing game crash)  
 Removed extraneous configs  
