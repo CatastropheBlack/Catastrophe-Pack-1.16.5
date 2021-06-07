@@ -72,8 +72,8 @@
 		"barn_house_seperation": 16,
 		"barn_house_spacing": 40,
 		// Big Pyramid
-		"big_pyramid_seperation": 5,
-		"big_pyramid_spacing": 25,
+		"big_pyramid_seperation": 10,
+		"big_pyramid_spacing": 35,
 		// Jungle Pyramid
 		"jungle_pyramid_seperation": 5,
 		"jungle_pyramid_spacing": 25,
@@ -81,25 +81,25 @@
 		"the_castle_in_the_sky_seperation": 8,
 		"the_castle_in_the_sky_spacing": 32,
 		// Villager Tower
-		"villager_tower_seperation": 16,
-		"villager_tower_spacing": 40,
+		"villager_tower_seperation": 20,
+		"villager_tower_spacing": 60,
 		// Abandoned Church
 		"abandoned_church_seperation": 16,
 		"abandoned_church_spacing": 40,
 		// Villager Market
-		"villager_market_seperation": 27,
-		"villager_market_spacing": 50,
+		"villager_market_seperation": 30,
+		"villager_market_spacing": 60,
 		// Pillager Factory
-		"pillager_factory_seperation": 27,
-		"pillager_factory_spacing": 50,
+		"pillager_factory_seperation": 30,
+		"pillager_factory_spacing": 65,
 		// Ice Tower
 		"ice_tower_seperation": 8,
 		"ice_tower_spacing": 32,
 		// Boar Hat Tavern
-		"tavern_seperation": 16,
-		"tavern_spacing": 46,
+		"tavern_seperation": 25,
+		"tavern_spacing": 60,
 		// Killer Bunny Castle
-		"killer_bunny_castle_seperation": 25,
-		"killer_bunny_castle_spacing": 50
+		"killer_bunny_castle_seperation": 40,
+		"killer_bunny_castle_spacing": 80
 	}
 }
