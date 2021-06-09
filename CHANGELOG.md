@@ -1,3 +1,10 @@
+**0.1.7**  
+Updated AutomaticPath to 1.4.1  
+Updated Blockus to 2.1.7
+Updated Mimics to 0.1.4  
+Removed Advancements Enlarger  
+Removed Plantable Flower Pots  
+
 **0.1.6**  
 Updated Blame to 1.16.5-3.2.0  
 Updated Cardinal Components API to 2.8.3  
@@ -31,7 +38,7 @@ Updated Xaero's Minimap to 21.9.0.1
 Disabled log stripping with axe (Tweakaroo)
 
 **0.1.2**  
-Acutally disabled sandstone mineshafts from Repurposed Structures  
+Actually disabled sandstone mineshafts from Repurposed Structures  
 Tweaked Custom Stars config  
 
 **0.1.1**  

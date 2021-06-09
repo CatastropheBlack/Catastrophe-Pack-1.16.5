@@ -45,7 +45,7 @@
 		// Declares whether REI is visible.
 		"overlayVisible": true,
 		"cheatingStyle": "GRAB",
-		"reducedMotion": false
+		"reducedMotion": true
 	},
 	"advanced": {
 		"filtering": {
@@ -73,7 +73,7 @@
 			// Declares the position of the entry panel.
 			"displayPanelLocation": "RIGHT",
 			// Declares whether scrolled entry panel should snap to rows.
-			"snapToRows": false,
+			"snapToRows": true,
 			// Declares how the scrollbar in villager screen should act.
 			"villagerScreenPermanentScrollBar": false,
 			"toastDisplayedOnCopyIdentifier": true,
@@ -130,9 +130,9 @@
 	},
 	"functionality": {
 		// Declares whether REI should remove the recipe book.
-		"disableRecipeBook": false,
+		"disableRecipeBook": true,
 		// Declares whether subsets is enabled.
 		"isSubsetsEnabled": false,
-		"allowInventoryHighlighting": true
+		"allowInventoryHighlighting": false
 	}
 }
